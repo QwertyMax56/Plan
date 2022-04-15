@@ -49,13 +49,11 @@ textarea {
   background-color: rgba(0, 125, 215, 0);
 
 }
-@media screen {
-    body{
+body{
     background-image: url(Background.jpg);
     background-size:100%;
     }
-}
-@media handheld {
+@media (maxwidth<1000) and (maxheight<800) {
     body{
     background-image: url(Background.jpg);
     background-size:100%;
